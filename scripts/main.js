@@ -19,6 +19,13 @@ function chance() {
 
 }
 
+function affichageInput(){
+  let msg = document.getElementById("affichage").value.replace(/ /g,"+");
+  alert(msg)
+  // msg = msg.replace(/ /g,"+");
+  // alert(msg);
+
+}
 
 // function replace() {
 // // document.getElementById("search").value.replace(" ","+");
