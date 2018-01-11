@@ -68,8 +68,19 @@ body > header button#connexion {
   padding-top: 8px;
 }
 
-section#panel {
+section#panel,
+section#bouton {
   flex: 1;
+}
+
+section#panel
+{
+  display: none;
+}
+
+section#bouton {
+  text-align: center;
+  display: block;
 }
 
 body > section div {

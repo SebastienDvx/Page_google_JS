@@ -4,17 +4,24 @@
   <meta charset="utf-8" />
   <title>Google</title>
   <link rel="stylesheet" href="css/index.css">
-   <link rel=icon href=favicon.ico>
+  <link rel=icon href=favicon.ico>
+  <script src="scripts/main.js"></script>
+
 </head>
 <body>
 <header>
   <span>
     <span><a href="#">Gmail</a></span>
     <span><a href="#">Images</a></span>
-    <span><button id="apps"><img src="img/applications.png"></button></span>
-    <span><button id="connexion">Connexion</button></span>
+    <span><button id="apps" onclick="foo();"><img src="img/applications.png"></button></span>
+    <span><button id="connexion" onclick="toto();">Connexion</button></span>
   </span>
 </header>
+<section id="bouton">
+  <button type="button">CLICK ME!!</button>
+
+</section>
+
 <section id="panel">
   <div id="logo">
     <img src="img/google.png" alt="Google logo">
